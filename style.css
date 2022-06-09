@@ -1,0 +1,25 @@
+.head2 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.row {
+    border: 2px solid black;
+    height: auto;
+}
+
+.firstCol {
+    border-right: 2px solid black;
+}
+
+.box {
+    border: 2px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}

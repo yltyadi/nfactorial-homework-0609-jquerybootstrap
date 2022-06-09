@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-info">
+    <div class="container-fluid">
+        <div class="head2">
+            <h2 style="font-weight: bold">Tom Thumb</h2>
+        </div>
+        <div class="row">
+            <div class="col-2 firstCol">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Mad Libs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Tom Thumb</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="col-10">
+                <div id="input-box" class="box">
+                    <form id="user-input-calculate">
+                        <input class="value" type="text" placeholder="Image width">
+                        <input class="value" type="text" placeholder="Image height">
+                        <input class="value" type="text" placeholder="Number of Colors">
+                        <button id="calculate">Calculate file size</button>
+                    </form>
+                </div>
+                <div id="calculation-output" class="box"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body class="bg-info">
-    <div class="container-fluid">
+    <div class="container">
         <div class="head2">
             <h2 style="font-weight: bold">Mad Libs</h2>
         </div>
@@ -17,14 +17,14 @@
             <div class="col-2 firstCol">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Mad Libs</a>
+                      <a id='first-link' class="nav-link active" aria-current="page" href="#" style="color: red;">Mad Libs</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="index2.html">Tom Thumb</a>
+                      <a id='second-link' class="nav-link" href="index2.html">Tom Thumb</a>
                     </li>
                   </ul>
             </div>
-            <div class="col-10">
+            <div class="col-10 secondCol">
                 <div id="input-box" class="box">
                     <form id="user-input">
                         <input class="value" type="text" placeholder="Name">

@@ -13,6 +13,13 @@
     border-right: 2px solid black;
 }
 
+.secondCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .box {
     border: 2px solid black;
     width: 300px;
